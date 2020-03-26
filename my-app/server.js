@@ -6,7 +6,7 @@ import MapView from 'react-native-maps';
 import Polyline from '@mapbox/polyline';
 
 
-class LocationA extends Component {
+class locationA extends Component {
   constructor(props) {
     super(props);
 
@@ -124,4 +124,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default LocationA;
+export default locationA;
