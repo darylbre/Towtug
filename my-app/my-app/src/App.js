@@ -1,12 +1,9 @@
-import React, { Component } from "react";
-import { AppRegistry, StyleSheet, Dimensions, Image, View, StatusBar, TouchableOpacity } from "react-native";
-import { Container, Text } from "native-base";
-
+import { AppRegistry, StyleSheet, Dimensions, Image, View, StatusBar, TouchableOpacity, Container, Text } from 'react-native';
 import MapView from 'react-native-maps';
 import Polyline from '@mapbox/polyline';
 
 
-class LocationA extends Component {
+class locationA extends Component {
   constructor(props) {
     super(props);
 
@@ -124,4 +121,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default LocationA;
+export default locationA;
