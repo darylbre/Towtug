@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 body {
-  background: rgba(249, 72, 28, 0.096) !important;
+  background: rgb(144, 3, 3) !important;
   min-height: 100vh;
   display: flex;
   font-weight: 400;

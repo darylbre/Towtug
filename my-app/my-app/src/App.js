@@ -12,14 +12,15 @@ import './App.css';
 import Polyline from '@mapbox/polyline';
 import Login from "./components/login.js";
 import SignUp from "./components/signup.js";
-import Location from "./components/locationA.js";
+//import Location from "./components/location.js";
+
 
 function App() {
   return (<Router>
     <div className="App">
       <nav className="navbar navbar-expand-lg navbar-light fixed-top">
         <div className="container">
-          <Link className="navbar-brand" to={"/log-in"}>Tow-Tug</Link>
+          <Link className="navbar-brand" to={"/log-in"}><Image source= "./images/Logo1.jpg"></Image></Link>
           <div className="collapse navbar-collapse" id="navbarTogglerDemo02">
             <ul className="navbar-nav ml-auto">
               <li className="nav-item">
@@ -29,7 +30,7 @@ function App() {
                 <Link className="nav-link" to={"/sign-up"}>Sign up</Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to={"/locationA"}>Location</Link>
+                <Link className="nav-link" to={"/location"}>Location</Link>
               </li>
             </ul>
           </div>
@@ -42,7 +43,7 @@ function App() {
             <Route exact path='/' component={Login} />
             <Route path="/log-in" component={Login} />
             <Route path="/sign-up" component={SignUp} />
-            <Route path="/locationA" component={LocationA} />
+            <Route path="/location" component={Location} />
           </Switch>
         </div>
       </div>
